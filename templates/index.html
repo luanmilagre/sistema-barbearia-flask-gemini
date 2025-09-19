@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duque Barbearia  - Agendamento</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Duque Barbearia </h1>
+            <p>Agende seu corte com estilo e praticidade.</p>
+        </header>
+
+        <main>
+            <div class="scheduler">
+                <h2>Escolha uma data</h2>
+                <input type="date" id="date-picker">
+                
+                <div id="horarios-container" class="horarios-grid">
+                    </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Confirmar Agendamento</h2>
+            <p>Você selecionou o dia <strong id="selected-date"></strong> às <strong id="selected-time"></strong>.</p>
+            <form id="booking-form">
+                <input type="text" id="client-name" placeholder="Seu nome completo" required>
+                <input type="tel" id="client-phone" placeholder="Seu telefone (opcional)">
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="chat-widget">
+        <div id="chat-header" class="chat-closed">
+            <p>Olá! Precisa de ajuda?</p>
+            <span id="toggle-chat-icon">+</span>
+        </div>
+        <div id="chat-body" class="hidden">
+            <div id="chat-messages">
+                <div class="message bot-message">
+                    <p>Bem-vindo à Duque Barbearia! Como posso ajudar? Você pode perguntar sobre 'horários', 'preços' ou 'como agendar'.</p>
+                </div>
+            </div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
+                <button id="send-chat-btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
