@@ -76,25 +76,9 @@ Siga os passos abaixo para rodar o projeto na sua máquina.
 
 ## 📸 Screenshots
 
-(# 💈 Sistema de Agendamento para Barbearia com IA
-## 📸 Screenshots
+(Opcional, mas altamente recomendado)
 
-Aqui estão algumas telas que demonstram o sistema em funcionamento:
-
-**Tela de Agendamento de Horários**
-![Tela principal onde o cliente escolhe a data e o horário para o agendamento.](screenshots/agendamento.png)
-
-**Agendamento Confirmado**
-![Tela de confirmação após um agendamento bem-sucedido.](screenshots/agendamento-feito.png)
-
-**Painel de Administração (Sem Agendamentos)**
-![Painel onde o administrador pode visualizar e gerenciar os agendamentos.](screenshots/painel-admin.png)
-
-**Painel de Administração (Com Agendamentos)**
-![Painel de administração exibindo a lista de agendamentos existentes.](screenshots/painel-adm-com-agendamento.png)
-
-**Exemplo de Interação com o Chatbot**
-![Exemplo de interação com o chatbot inteligente, respondendo a perguntas dos clientes.](screenshots/capturar.png)
+*Adicione aqui screenshots da tela de login, da agenda, do painel de admin, etc. Você pode subir as imagens para o GitHub e linká-las aqui.*
 
 ---
 
