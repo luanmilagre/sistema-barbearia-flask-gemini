@@ -76,10 +76,18 @@ Siga os passos abaixo para rodar o projeto na sua máquina.
 
 ## 📸 Screenshots
 
-(Opcional, mas altamente recomendado)
+## 📸 Screenshots
 
-*Adicione aqui screenshots da tela de login, da agenda, do painel de admin, etc. Você pode subir as imagens para o GitHub e linká-las aqui.*
+Aqui estão algumas telas que demonstram o sistema em funcionamento:
 
+**Tela de Agendamento de Horários**
+![Tela principal onde o cliente escolhe a data e o horário para o agendamento.](screenshots/tela-agendamento.png)
+
+**Painel de Administração**
+![Painel onde o administrador pode visualizar, confirmar ou excluir os agendamentos.](screenshots/painel-admin.png)
+
+**Chat com Assistente IA (Gemini)**
+![Exemplo de interação com o chatbot inteligente para tirar dúvidas dos clientes.](screenshots/chat-ia.png)
 ---
 
 ## Licença
